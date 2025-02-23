@@ -278,9 +278,33 @@ p {
 
 /* our portfolio-section-4 */
 
+.out-portfolio {
+	padding: 120px 0;
+}
 .portfolio-title {
 	line-height: 1.11;
 	text-transform: capitalize;
+	margin-bottom: 72px;
+}
+
+.portfolio-list {
+	display: flex;
+	gap: 24px;
+	flex-wrap: wrap;
+	column-gap: 24px;
+	row-gap: 48px;
+}
+
+.portfolio-item {
+	width: calc((100% - 72px) / 4);
+}
+
+.portfolio-box {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+margin-bottom: 8px;
+
 }
 
 /* footer*/
