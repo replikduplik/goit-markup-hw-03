@@ -262,6 +262,7 @@ p {
 .team-member {
 	background-color: #ffffff;
 	width: calc((100% - 72px) / 4);
+	border-radius: 0px 0px 4px 4px;
 }
 .team-member-box {
 	padding: 32px 0;
@@ -278,7 +279,7 @@ p {
 
 /* our portfolio-section-4 */
 
-.out-portfolio {
+.our-portfolio {
 	padding: 120px 0;
 }
 .portfolio-title {
