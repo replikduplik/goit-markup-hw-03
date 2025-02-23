@@ -181,6 +181,7 @@ p {
 	border-radius: 4px;
 	border:none;
 	height: 56px;
+	min-width: 169px;
 	background: #4d5ae5;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
@@ -201,8 +202,34 @@ p {
 }
 
 /* features-section-2 */
+.our-features {
+padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute; /*  Sayfa akışından çıkarır */
+  width: 1px; /* Küçük bir alan kaplamasını sağlar. */
+  height: 1px; /* Küçük bir alan kaplamasını sağlar. */
+  padding: 0;
+  margin: -1px; /* Ekranda tamamen görünmez hale getirir.*/
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;  /* Metinlerin bir araya gelmesini engeller. */
+  border: 0;
+}
+
+.features-list {
+	display: flex;
+	gap: 24px;
+}
+.features-item {
+	width: calc((100% - 72px) / 4);
+}
+.features-title {
+	margin-bottom: 8px;
+}
 .features-text {
 	letter-spacing: 0.02em;
+	
 }
 
 /* our team-section-3 */
