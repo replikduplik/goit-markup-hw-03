@@ -247,21 +247,33 @@ p {
 
 .our-team {
 	background-color: #f4f4fd;
+	padding: 120px 0;
 }
 .our-team-title {
 	line-height: 1.11;
 	text-transform: capitalize;
+	margin-bottom: 72px;
+}
+.team-list {
+	display: flex;
+	gap: 24px;
 }
 
 .team-member {
 	background-color: #ffffff;
+	width: calc((100% - 72px) / 4);
 }
-
+.team-member-box {
+	padding: 32px 0;
+}
 .team-member-name {
+	text-align: center;
+	margin-bottom: 8px;
 }
 
 .team-title {
 	letter-spacing: 0.02em;
+	text-align: center;
 }
 
 /* our portfolio-section-4 */
