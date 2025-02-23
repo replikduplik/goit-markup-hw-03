@@ -313,6 +313,7 @@ footer {
 	font-family: 'Raleway', sans-serif;
 	background-color: #2e2f42;
 	letter-spacing: 17.33;
+	padding: 100px 0;
 }
 
 .footer-text {
@@ -322,6 +323,7 @@ footer {
 	letter-spacing: 0.02em;
 }
 .footer-logo {
+	display: inline-block;
 	line-height: 1.17;
 	font-size: 18px;
 	font-weight: 700;
@@ -329,7 +331,9 @@ footer {
 	text-decoration: none;
 	color: #4d5ae5;
 	text-transform: uppercase;
+	margin-bottom: 16px;
 }
 .footer-logo-studio {
 	color: '#F4F4FD';
+	max-width: 264px;
 }
