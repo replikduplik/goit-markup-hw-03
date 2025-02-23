@@ -297,7 +297,7 @@ p {
 }
 
 .portfolio-item {
-	width: calc((100% - 72px) / 4);
+	flex-basis: calc((100% - 72px) / 4);
 }
 
 .portfolio-box {
@@ -305,7 +305,6 @@ padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
 margin-bottom: 8px;
-
 }
 
 /* footer*/
