@@ -1,16 +1,23 @@
 /* body */
-*{
-    box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
-img{
-    display: block;
+img {
+	display: block;
 }
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
-ul, ol {
+ul,
+ol {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-left: 0;
@@ -174,12 +181,12 @@ p {
 }
 
 .hero-button {
-	display:block;
+	display: block;
 	margin: 0 auto;
 	margin-top: 48px;
 	text-align: center;
 	border-radius: 4px;
-	border:none;
+	border: none;
 	height: 56px;
 	min-width: 169px;
 	background: #4d5ae5;
@@ -203,18 +210,19 @@ p {
 
 /* features-section-2 */
 .our-features {
-padding: 120px 0;
+	padding: 120px 0;
 }
 .visually-hidden {
-  position: absolute; /*  Sayfa akışından çıkarır */
-  width: 1px; /* Küçük bir alan kaplamasını sağlar. */
-  height: 1px; /* Küçük bir alan kaplamasını sağlar. */
-  padding: 0;
-  margin: -1px; /* Ekranda tamamen görünmez hale getirir.*/
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;  /* Metinlerin bir araya gelmesini engeller. */
-  border: 0;
+	position: absolute; /*  Sayfa akışından çıkarır */
+	width: 1px; /* Küçük bir alan kaplamasını sağlar. */
+	height: 1px; /* Küçük bir alan kaplamasını sağlar. */
+	padding: 0;
+	margin: -1px; /* Ekranda tamamen görünmez hale getirir.*/
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	clip-path: inset(100%);
+	white-space: nowrap; /* Metinlerin bir araya gelmesini engeller. */
+	border: 0;
 }
 
 .features-list {
@@ -229,7 +237,6 @@ padding: 120px 0;
 }
 .features-text {
 	letter-spacing: 0.02em;
-	
 }
 
 /* our team-section-3 */
@@ -268,7 +275,7 @@ padding: 120px 0;
 
 footer {
 	font-family: 'Raleway', sans-serif;
-  background-color: #2e2f42;
+	background-color: #2e2f42;
 	letter-spacing: 17.33;
 }
 
@@ -288,5 +295,5 @@ footer {
 	text-transform: uppercase;
 }
 .footer-logo-studio {
-	color: "#F4F4FD";
+	color: '#F4F4FD';
 }
